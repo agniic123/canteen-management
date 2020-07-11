@@ -1,0 +1,8 @@
+CREATE TABLE `item` (
+  `id` varchar(10) unsigned NOT NULL AUTO_INCREMENT,
+  `password` int(10) unsigned NOT NULL DEFAULT '0',
+  `name` varchar(45) NOT NULL DEFAULT '',
+  `number` varchar(10) unsigned NOT NULL DEFAULT '0',
+  
+);
+INSERT INTO `item` VALUES ('10','agnic','agnic','8274846555');
